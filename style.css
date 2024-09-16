@@ -1,0 +1,228 @@
+* {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.jesus{
+    margin-bottom: 10px;
+}
+
+.portafolio {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    background: linear-gradient(rgb(130, 187, 223), rgb(182, 154, 212));
+    max-width: 100%;
+}
+
+.presentacion {
+    display: grid;
+    max-width: 100%;
+    padding-top: 12px;
+}
+
+.descricion {
+    width: 100%;
+    border-radius: 5px;
+    margin: auto;
+    background: linear-gradient(rgb(130, 187, 223), rgb(182, 154, 212));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto {
+    color: black;
+    margin-top: 10px;
+}
+
+.textocont {
+    color: black;
+}
+
+.intuitivo {
+    margin-top: 12px;
+}
+
+.trabajos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 5px;
+    background: linear-gradient(rgb(130, 187, 223), rgb(182, 154, 212));
+}
+
+.primero {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgi {
+    width: 200px;
+}
+
+@media (max-width: 1399px) {
+
+    h2 {
+        font-size: 30px;
+    }
+
+    a {
+        font-size: 17px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    .imgi {
+        width: 150px;
+    }
+
+}
+
+@media (max-width: 1099px) {
+    h1 {
+        font-size: 77px;
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .imgi {
+        width: 120px;
+    }
+}
+
+@media (max-width: 971px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    .presentacion {
+        padding-top: 47px;
+    }
+
+    .intuitivo {
+        margin-top: 47px;
+    }
+
+    .trabajos {
+        grid-template-columns: 1fr;
+        background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    }
+
+    .primero {
+        border-radius: 5px;
+        background: linear-gradient(rgb(130, 187, 223), rgb(182, 154, 212));
+    }
+
+    .portafolio {
+        background: linear-gradient(rgb(130, 187, 223), rgb(182, 154, 212));
+    }
+
+    .trabajos {
+        gap: 10px;
+    }
+
+    * {
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+}
+
+@media (max-width: 830px) {
+    .presentacion {
+        padding-top: 27px;
+    }
+
+    .intuitivo {
+        margin-top: 27px;
+    }
+
+}
+
+@media (max-width: 650px) {
+    h1 {
+        font-size: 33px;
+    }
+}
+
+@media (max-width: 560px) {
+    * {
+        margin-left: 6px;
+        margin-right: 6px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+}
+
+@media (max-width: 505px) {
+    .intuitivo {
+        margin-top: 17px;
+    }
+}
+
+@media (max-width: 417px) {
+    a {
+        font-size: 13px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 340px) {
+    * {
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+}
